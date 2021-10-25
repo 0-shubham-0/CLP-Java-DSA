@@ -12,7 +12,21 @@
 
 public class GradingSystem {
     public static void main(String[] args) {
-        // Write your code here
-        
+        int marks =80;
+        checkMarks(marks);
+    }
+    static void checkMarks(int a){
+        if (a>90){
+            System.out.println("Excellent");
+        }
+        else if(a>80){
+            System.out.println("Good");
+        }
+        else if(a>70){
+            System.out.println("Fair");
+        }
+        else{
+        System.out.println((a>60)?"Meets expectations":"Below par");
+        }
     }
 }
