@@ -11,7 +11,7 @@ public class TakingInputs {
         int a =scan.nextInt();
         System.out.println("Enter a decimal");
         float b=scan.nextFloat();
-        System.out.println("Enter String");
+        System.out.println("Enter  String");
         String c=scan.next();
         System.out.println("Enter a Character");
         String d=scan.next();
