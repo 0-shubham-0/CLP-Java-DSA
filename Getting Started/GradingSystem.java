@@ -17,7 +17,7 @@ public class GradingSystem {
     }
     static void checkMarks(int a){
         if (a>90){
-            System.out.println("Excellent");
+            System.out.println("Excellent!");
         }
         else if(a>80){
             System.out.println("Good");
