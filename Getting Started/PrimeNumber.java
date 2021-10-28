@@ -8,7 +8,20 @@ import java.util.*;
 public class PrimeNumber {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-         // write ur code here
-    
+        System.out.println("Enter a number of inputs");
+        int t=scn.nextInt();
+        for (int i = 0; i < t; i++) {
+            System.out.println("Enter a number to be tested");
+            int n=scn.nextInt();
+            boolean flag = true;
+            for (int j = 2; j < n / 2; j++) {
+                if (n % j == 0) {
+                    System.out.println("Is not a prime");
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) System.out.println("Is a prime");
+        }
      }
 }

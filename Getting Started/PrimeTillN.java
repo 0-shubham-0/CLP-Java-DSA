@@ -8,6 +8,10 @@ import java.util.*;
 
 public class PrimeTillN{
     public static void main(String[] args) {
-        // write your code here
+        Scanner scn = new Scanner(System.in);
+        System.out.println("Enter lower limit");
+        int low=scn.nextInt();
+        System.out.println("Enter higher limit");
+        int high=scn.nextInt();
     }
 }
